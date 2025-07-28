@@ -1,0 +1,84 @@
+2025-07-28 17:50:42,788 - ERROR - BinanceBot - Binance API Error placing market order (Code: -2015): Invalid API-key, IP, or permissions for action
+2025-07-28 18:16:41,987 - ERROR - BinanceBot - Binance API Error placing market order (Code: -2015): Invalid API-key, IP, or permissions for action
+2025-07-28 18:31:53,069 - INFO - BinanceBot - Market order placed successfully. ID: 5489962789, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:03:21,349 - ERROR - BinanceBot - Validation Error: Price 99999.0 does not adhere to tick size (0.1) for BTCUSDT.
+2025-07-28 19:04:18,179 - ERROR - BinanceBot - Validation Error: Price 69000.0 does not adhere to tick size (0.1) for BTCUSDT.
+2025-07-28 19:06:33,267 - DEBUG - BinanceBot - Checking balance: required=690.0, available=14998.71661588
+2025-07-28 19:06:33,438 - INFO - BinanceBot - Limit order placed successfully. ID: 5490193671, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Price: 69000.00, Status: NEW
+2025-07-28 19:09:59,030 - INFO - BinanceBot - Market order placed successfully. ID: 5490220637, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:22:49,123 - INFO - BinanceBot - Market order placed successfully. ID: 5490321333, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:26:44,605 - INFO - BinanceBot - Market order placed successfully. ID: 5490348404, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:32:58,401 - INFO - BinanceBot - Market order placed successfully. ID: 5490388235, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:35:17,898 - DEBUG - BinanceBot - Checking balance: required=690.0, available=14996.81867536
+2025-07-28 19:35:18,104 - INFO - BinanceBot - Limit order placed successfully. ID: 5490404593, Symbol: BTCUSDT, Side: SELL, Quantity: 0.010, Price: 69000.00, Status: NEW
+2025-07-28 19:38:57,136 - DEBUG - BinanceBot - Checking balance: required=710.0, available=14992.23146358
+2025-07-28 19:38:57,451 - INFO - BinanceBot - Take-Profit LIMIT order placed. ID: 5490427437, Price: 71000.0
+2025-07-28 19:38:57,808 - ERROR - BinanceBot - Binance API Error (Code: -1116): Invalid orderType.
+2025-07-28 19:41:03,703 - DEBUG - BinanceBot - Checking balance: required=710.0, available=14986.94893005
+2025-07-28 19:41:03,933 - INFO - BinanceBot - Take-Profit LIMIT order placed. ID: 5490439627, Price: 71000.0
+2025-07-28 19:41:04,272 - ERROR - BinanceBot - Binance API Error (Code: -1116): Invalid orderType.
+2025-07-28 19:41:56,652 - DEBUG - BinanceBot - Checking balance: required=710.0, available=14980.07463347
+2025-07-28 19:41:56,857 - INFO - BinanceBot - Take-Profit LIMIT order placed. ID: 5490445965, Price: 71000.0
+2025-07-28 19:41:56,967 - INFO - BinanceBot - Stop-LIMIT order placed. ID: 5490445983, Stop: 68000.0, Limit: 67900.0
+2025-07-28 19:44:46,134 - INFO - BinanceBot - Market order placed successfully. ID: 5490463595, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 19:44:59,626 - DEBUG - BinanceBot - Checking balance: required=700.0, available=14972.17578556
+2025-07-28 19:44:59,880 - INFO - BinanceBot - Limit order placed successfully. ID: 5490464417, Symbol: BTCUSDT, Side: SELL, Quantity: 0.010, Price: 70000.00, Status: NEW
+2025-07-28 19:45:14,897 - DEBUG - BinanceBot - Checking balance: required=710.0, available=14965.18960026
+2025-07-28 19:45:15,257 - INFO - BinanceBot - Take-Profit LIMIT order placed. ID: 5490466038, Price: 71000.0
+2025-07-28 19:45:15,602 - INFO - BinanceBot - Stop-MARKET order placed. ID: 5490466164, Stop: 68000.0
+2025-07-28 20:30:15,640 - INFO - BinanceBot - Starting TWAP: 3 slices of 0.01 BTCUSDT every 5s.
+2025-07-28 20:30:15,640 - DEBUG - BinanceBot - Placing slice 1/3
+2025-07-28 20:30:16,240 - CRITICAL - BinanceBot - Unexpected error in TWAP: has_sufficient_balance() missing 1 required positional argument: 'price'
+Traceback (most recent call last):
+  File "C:\Users\priya\Desktop\Projects\Priya_binance_bot\src\advanced\twap.py", line 38, in place_twap_orders
+    if not has_sufficient_balance(client, symbol, side, slice_qty):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: has_sufficient_balance() missing 1 required positional argument: 'price'
+2025-07-28 20:31:51,234 - INFO - BinanceBot - Starting TWAP: 3 slices of 0.01 BTCUSDT every 5s.
+2025-07-28 20:31:51,234 - DEBUG - BinanceBot - Placing slice 1/3
+2025-07-28 20:31:52,143 - DEBUG - BinanceBot - Checking balance: required=1179.1649503788, available=14962.43652104
+2025-07-28 20:31:52,484 - INFO - BinanceBot - TWAP Order 1: ID 5490658896, Qty: 0.01, Status: NEW
+2025-07-28 20:31:57,485 - DEBUG - BinanceBot - Placing slice 2/3
+2025-07-28 20:31:58,675 - DEBUG - BinanceBot - Checking balance: required=1179.22, available=14961.9639448
+2025-07-28 20:31:58,996 - INFO - BinanceBot - TWAP Order 2: ID 5490658998, Qty: 0.01, Status: NEW
+2025-07-28 20:32:03,998 - DEBUG - BinanceBot - Placing slice 3/3
+2025-07-28 20:32:04,619 - DEBUG - BinanceBot - Checking balance: required=1179.231, available=14961.49136857
+2025-07-28 20:32:04,772 - INFO - BinanceBot - TWAP Order 3: ID 5490659100, Qty: 0.01, Status: NEW
+2025-07-28 20:37:16,290 - INFO - BinanceBot - Placing 5 grid orders from 67000.0 to 69000.0 with step 500.00
+2025-07-28 20:37:16,852 - DEBUG - BinanceBot - Checking balance: required=670.0, available=14961.01940737
+2025-07-28 20:37:16,964 - INFO - BinanceBot - Grid Order 1: ID 5490675357, Price: 67000.0, Qty: 0.01, Status: NEW
+2025-07-28 20:37:17,734 - DEBUG - BinanceBot - Checking balance: required=675.0, available=14961.01940737
+2025-07-28 20:37:17,851 - INFO - BinanceBot - Grid Order 2: ID 5490675389, Price: 67500.0, Qty: 0.01, Status: NEW
+2025-07-28 20:37:18,420 - DEBUG - BinanceBot - Checking balance: required=680.0, available=14961.01940737
+2025-07-28 20:37:18,536 - INFO - BinanceBot - Grid Order 3: ID 5490675407, Price: 68000.0, Qty: 0.01, Status: NEW
+2025-07-28 20:37:19,300 - DEBUG - BinanceBot - Checking balance: required=685.0, available=14961.01940737
+2025-07-28 20:37:19,612 - INFO - BinanceBot - Grid Order 4: ID 5490675439, Price: 68500.0, Qty: 0.01, Status: NEW
+2025-07-28 20:37:20,167 - DEBUG - BinanceBot - Checking balance: required=690.0, available=14961.01940737
+2025-07-28 20:37:20,478 - INFO - BinanceBot - Grid Order 5: ID 5490675456, Price: 69000.0, Qty: 0.01, Status: NEW
+2025-07-28 20:50:23,223 - INFO - BinanceBot - Market order placed successfully. ID: 5490719922, Symbol: BTCUSDT, Side: BUY, Quantity: 0.010, Status: NEW
+2025-07-28 20:51:24,737 - DEBUG - BinanceBot - Checking balance: required=700.0, available=14960.54661537
+2025-07-28 20:51:24,861 - INFO - BinanceBot - Limit order placed successfully. ID: 5490723227, Symbol: BTCUSDT, Side: SELL, Quantity: 0.010, Price: 70000.00, Status: NEW
+2025-07-28 20:51:39,774 - DEBUG - BinanceBot - Checking balance: required=710.0, available=14959.20326355
+2025-07-28 20:51:40,093 - INFO - BinanceBot - Take-Profit LIMIT order placed. ID: 5490725737, Price: 71000.0
+2025-07-28 20:51:40,287 - INFO - BinanceBot - Stop-MARKET order placed. ID: 5490725740, Stop: 68000.0
+2025-07-28 20:52:34,624 - INFO - BinanceBot - Starting TWAP: 3 slices of 0.01 BTCUSDT every 5s.
+2025-07-28 20:52:34,625 - DEBUG - BinanceBot - Placing slice 1/3
+2025-07-28 20:52:36,384 - DEBUG - BinanceBot - Checking balance: required=1182.3, available=14957.85991173
+2025-07-28 20:52:36,694 - INFO - BinanceBot - TWAP Order 1: ID 5490728162, Qty: 0.01, Status: NEW
+2025-07-28 20:52:41,695 - DEBUG - BinanceBot - Placing slice 2/3
+2025-07-28 20:52:43,103 - DEBUG - BinanceBot - Checking balance: required=1182.3, available=14957.38691213
+2025-07-28 20:52:43,421 - INFO - BinanceBot - TWAP Order 2: ID 5490728965, Qty: 0.01, Status: NEW
+2025-07-28 20:52:48,422 - DEBUG - BinanceBot - Placing slice 3/3
+2025-07-28 20:52:49,628 - DEBUG - BinanceBot - Checking balance: required=1182.5989202652, available=14956.91391253
+2025-07-28 20:52:49,997 - INFO - BinanceBot - TWAP Order 3: ID 5490729057, Qty: 0.01, Status: NEW
+2025-07-28 20:52:57,762 - INFO - BinanceBot - Placing 5 grid orders from 67000.0 to 69000.0 with step 500.00
+2025-07-28 20:52:58,785 - DEBUG - BinanceBot - Checking balance: required=670.0, available=14956.44091293
+2025-07-28 20:52:59,132 - INFO - BinanceBot - Grid Order 1: ID 5490729233, Price: 67000.0, Qty: 0.01, Status: NEW
+2025-07-28 20:53:00,583 - DEBUG - BinanceBot - Checking balance: required=675.0, available=14956.44091293
+2025-07-28 20:53:00,847 - INFO - BinanceBot - Grid Order 2: ID 5490729264, Price: 67500.0, Qty: 0.01, Status: NEW
+2025-07-28 20:53:01,769 - DEBUG - BinanceBot - Checking balance: required=680.0, available=14956.44091293
+2025-07-28 20:53:02,180 - INFO - BinanceBot - Grid Order 3: ID 5490729339, Price: 68000.0, Qty: 0.01, Status: NEW
+2025-07-28 20:53:02,547 - DEBUG - BinanceBot - Checking balance: required=685.0, available=14956.44091293
+2025-07-28 20:53:02,901 - INFO - BinanceBot - Grid Order 4: ID 5490729354, Price: 68500.0, Qty: 0.01, Status: NEW
+2025-07-28 20:53:03,596 - DEBUG - BinanceBot - Checking balance: required=690.0, available=14956.44091293
+2025-07-28 20:53:03,714 - INFO - BinanceBot - Grid Order 5: ID 5490729365, Price: 69000.0, Qty: 0.01, Status: NEW
